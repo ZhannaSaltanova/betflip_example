@@ -545,9 +545,12 @@ tr {
     background-color: rgba(110, 104, 104, 0.536); 
     border: none;
 }
-tr:nth-child(1){
-    background-color: inherit;
+th {
+    font-size: 20px;
     font-weight: 700;
+    background-color: inherit;
+    border-radius: 10px 10px 10px 10px; 
+    padding: 10px 0;
 }
   @media (max-width: 1280px) {
     .table-wrapper {
