@@ -4,9 +4,9 @@
 
 :root {
     --font-family: 'Montserrat', sans-serif;
-    --color-light: #0c3653; 
-    --bg-dark: #f8f8f9;
-    --bg-card: #f8f8f9;
+    --color-light: #f8f8f9; 
+    --bg-dark: #0c3653;
+    --bg-card: #0c3653;
     --border-radius: 10px;
     --transition-duration: 0.3s;
     --color-accent: #53cc60 ;
@@ -542,13 +542,13 @@ td {
     border-radius: 10px 10px 10px 10px; 
 }
 tr {
-    background-color: rgba(110, 104, 104, 0.536); 
-    border: none;
+    background-color: rgba(146, 146, 146, 0.197);
+    border: 2px solid var(--color-light);
 }
 th {
     font-size: 20px;
     font-weight: 700;
-    background-color: inherit;
+    background-color: rgba(146, 146, 146, 0.197); 
     border-radius: 10px 10px 10px 10px; 
     padding: 10px 0;
 }
