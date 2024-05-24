@@ -4,9 +4,9 @@
 
 :root {
     --font-family: 'Montserrat', sans-serif;
-    --color-light: #f8f8f9; 
-    --bg-dark: #0c3653;
-    --bg-card: #0c3653;
+    --color-light: #0c3653 ; 
+    --bg-dark: #f8f8f9;
+    --bg-card: #f8f8f9;
     --border-radius: 10px;
     --transition-duration: 0.3s;
     --color-accent: #53cc60 ;
@@ -131,7 +131,7 @@ strong {
 .btn a {
     color: var(--color-light);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.2px;
     text-transform: uppercase;
