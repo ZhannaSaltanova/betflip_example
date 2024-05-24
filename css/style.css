@@ -606,8 +606,7 @@ th {
 .log {
     border: none;
     background-color: var(--color-accent);
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-radius: 10px;
     height: auto;
     padding: 20px 70px;
 }
